@@ -5,6 +5,7 @@ import Login from './Login';
 import Signup from './Register';
 import Failed from './Failed';
 import Logout from './Logout';
+import Refresh from './Refresh';
 
 
 export default function RouterProvider() {
@@ -16,6 +17,7 @@ export default function RouterProvider() {
         <Route path="/register" element={<Signup />} />
         <Route path="/failed" element={<Failed />} />
         <Route path="/logout" element={<Logout />} />
+        <Route path="/refresh" element={<Refresh />} />
       </Routes>
     </BrowserRouter>
   )
